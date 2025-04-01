@@ -1,0 +1,20 @@
+Q1. Design a set of classes that incorporates following:
+
+	1. Two entities Car and Bike
+
+	2. A super class, Vehicle
+
+	3. Distribute properties like Make, Model, Year, Price, sunroofAvailable, etc.
+
+	4. Singleton service with single method that creates objects of both classes.
+	   Service remains singleton in case of serialization and cloning
+
+	5. Need to make sure no attribute of Vehicle is serialized ever.
+
+	Test:
+
+		1. Create 2 cars and 3 bikes and save them in-memory
+
+		2. Check if a particular car model was created and is present in-memory
+
+		3. Filter out all vehicles that were manufactured after year 2020 and print their details with price including GST of 18%.
